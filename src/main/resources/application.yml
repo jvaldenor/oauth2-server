@@ -1,0 +1,17 @@
+server:
+  contextPath: /auth
+security:
+  user:
+    password: 1234
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rnd.oauth2?characterEncoding=utf8
+    username: root
+    password: 1234
+  cloud:
+    config:
+      discovery:
+        enabled: true
